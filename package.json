@@ -1,0 +1,16 @@
+{
+  "name": "finpulse-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
